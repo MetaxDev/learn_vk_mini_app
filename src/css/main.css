@@ -1,0 +1,35 @@
+.div-center {
+    display: table;
+    margin: 0 auto;
+}
+
+.div-center img {
+    width: 10rem;
+}
+
+.buttons-group {
+    display: flex;
+}
+
+.buttons-group button:first-child {
+    margin-right: 8px;
+}
+
+a, div, img, p, button {
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
